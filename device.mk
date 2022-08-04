@@ -41,7 +41,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     audioadsprpcd \
-    android.hardware.audio.service_64.rc \
+    android.hardware.audio.service \
     audio.primary.kalama \
     sound_trigger.primary.kalama \
     libagm_compress_plugin \
