@@ -121,7 +121,6 @@ odm/lib/libaudioroute_ext.so
 odm/lib/libcrussp.so
 odm/lib64/libaudioroute_ext.so
 odm/lib64/libcrussp.so
-vendor/bin/hw/android.hardware.audio.service_64
 vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/audio/sku_kalama/adsp_sleep_monitor.conf
 vendor/etc/audio/sku_kalama/audio_effects.conf

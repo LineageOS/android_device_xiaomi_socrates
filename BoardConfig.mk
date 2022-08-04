@@ -63,6 +63,8 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_SUPPORTS_OPENSOURCE_STHAL := true
 TARGET_USES_QCOM_MM_AUDIO := true
 
+$(call soong_config_set, android_hardware_audio, run_64bit, true)
+
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
