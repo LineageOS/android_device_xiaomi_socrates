@@ -237,6 +237,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
+    ApertureOverlaySocrates \
     CarrierConfigOverlaySocrates \
     FrameworkResOverlaySocrates \
     LineageSdkOverlaySocrates \
