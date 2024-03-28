@@ -1,6 +1,3 @@
-$(TARGET_OUT_VENDOR)/app/CneApp/lib/arm64/libvndfwk_detect_jni.qti_vendor.so: $(LOCAL_INSTALLED_MODULE)
-$(call symlink-file,,/vendor/lib64/libvndfwk_detect_jni.qti_vendor.so,$(TARGET_OUT_VENDOR)/app/CneApp/lib/arm64/libvndfwk_detect_jni.qti_vendor.so)
-ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/app/CneApp/lib/arm64/libvndfwk_detect_jni.qti_vendor.so
 $(TARGET_OUT_VENDOR)/firmware/wlan/qca_cld/kiwi/WCNSS_qcom_cfg.ini: $(LOCAL_INSTALLED_MODULE)
 $(call symlink-file,,/vendor/etc/wifi/kiwi/WCNSS_qcom_cfg.ini,$(TARGET_OUT_VENDOR)/firmware/wlan/qca_cld/kiwi/WCNSS_qcom_cfg.ini)
 ALL_DEFAULT_INSTALLED_MODULES += $(TARGET_OUT_VENDOR)/firmware/wlan/qca_cld/kiwi/WCNSS_qcom_cfg.ini
