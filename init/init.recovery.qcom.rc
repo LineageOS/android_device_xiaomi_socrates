@@ -31,6 +31,7 @@ on early-init
     insmod /vendor/lib/modules/gpr_dlkm.ko
     insmod /vendor/lib/modules/spf_core_dlkm.ko
     insmod /vendor/lib/modules/adsp_loader_dlkm.ko
+    insmod /vendor/lib/modules/qti_battery_charger.ko
 
 on init
     write /sys/class/backlight/panel0-backlight/brightness 200
@@ -46,8 +47,6 @@ on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
     write /proc/sys/kernel/firmware_config/force_sysfs_fallback 1
-    mkdir /vendor/firmware_mnt
-    mkdir /vendor/firmware
     mount_all /vendor/etc/charger_fstab.qti --early
     mount none /vendor/firmware_mnt/image /vendor/firmware bind rec
     wait /sys/kernel/boot_adsp/boot
