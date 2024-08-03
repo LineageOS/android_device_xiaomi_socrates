@@ -1914,7 +1914,7 @@ for file in ${VENDOR_SKIP_FILES[@]}; do
 done
 
 rm -f $VENDOR_PROP_FILE
-FULL_FILES_LIST=$(cd $VENDOR_ODM_PATH && find odm vendor -type f | sort)
+FULL_FILES_LIST=$(cd $VENDOR_ODM_PATH && find odm vendor -type f | LC_ALL=C sort)
 for file in $FULL_FILES_LIST; do
     SKIP=false
     MODULE=false
@@ -1935,7 +1935,7 @@ for file in $FULL_FILES_LIST; do
 done
 
 rm -f $VENDOR_SYMLINKS_MK
-FULL_LINK_LIST=$(cd $VENDOR_ODM_PATH/vendor && find * -type l | sort)
+FULL_LINK_LIST=$(cd $VENDOR_ODM_PATH/vendor && find * -type l | LC_ALL=C sort)
 for link in $FULL_LINK_LIST; do
     SKIP=false
     link_target=$(readlink $VENDOR_ODM_PATH/vendor/$link)
