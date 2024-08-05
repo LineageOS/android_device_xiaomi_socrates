@@ -134,6 +134,9 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0.vendor
 
+PRODUCT_PACKAGES += \
+    libsdmcore-shim
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
