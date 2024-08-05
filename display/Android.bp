@@ -1,0 +1,26 @@
+cc_library_shared {
+    name: "libsdmcore-shim",
+    srcs: [
+        "display.cpp",
+    ],
+    include_dirs: [
+        "hardware/qcom-caf/sm8550/display/gpu_tonemapper",
+        "hardware/qcom-caf/sm8550/display/gralloc",
+        "hardware/qcom-caf/sm8550/display/include",
+        "hardware/qcom-caf/sm8550/display/libdebug",
+        "hardware/qcom-caf/sm8550/display/libdrmutils",
+        "hardware/qcom-caf/sm8550/display/libhistogram",
+        "hardware/qcom-caf/sm8550/display/libqdutils",
+        "hardware/qcom-caf/sm8550/display/libqservice",
+        "hardware/qcom-caf/sm8550/display/sdm/include",
+        "hardware/qcom-caf/sm8550/display/sdm/libs/core",
+        "vendor/qcom/opensource/commonsys-intf/display/gralloc",
+        "vendor/qcom/opensource/commonsys-intf/display/include",
+        "vendor/qcom/opensource/commonsys-intf/display/libqdmetadata",
+        "vendor/qcom/opensource/commonsys-intf/display/services",
+    ],
+    shared_libs: [
+        "liblog",
+    ],
+    vendor: true,
+}
