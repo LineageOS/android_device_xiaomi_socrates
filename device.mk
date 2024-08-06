@@ -369,10 +369,10 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml
 
 PRODUCT_PACKAGES += \
-    ims-support
+    xiaomi-telephony-stub
 
 PRODUCT_BOOT_JARS += \
-    ims-support
+    xiaomi-telephony-stub
 
 # Tethering
 PRODUCT_PACKAGES += \
