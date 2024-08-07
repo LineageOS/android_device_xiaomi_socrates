@@ -181,6 +181,7 @@ persist.sys.miui.camera.version=3.0
 ro.hardware.camera=xiaomi
 af.fast_track_multiplier=1
 ro.camera.enableCamera1MaxZsl=1
+vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.lineageos.aperture.dev
 
 # Dalvik
 dalvik.vm.heapstartsize=16m
