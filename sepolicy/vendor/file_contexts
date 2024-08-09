@@ -36,11 +36,6 @@
 # NFC
 /(odm|vendor/odm|vendor|system/vendor)/bin/hw/vendor\.nxp\.hardware\.nfc@2\.0-service u:object_r:hal_nfc_default_exec:s0
 
-# TouchFeature
-/(odm|vendor/odm|vendor|system/vendor)/bin/hw/vendor\.xiaomi\.hw\.touchfeature@1\.0-service u:object_r:hal_touchfeature_xiaomi_default_exec:s0
-/dev/xiaomi-touch u:object_r:touchfeature_device:s0
-/sys/devices/virtual/touch/touch_dev(/.*)? u:object_r:sysfs_touch_dev:s0
-
 # Touchscreen
 /sys/devices/platform/goodix_ts.0(/.*)? u:object_r:sysfs_goodix_touch:s0
 
