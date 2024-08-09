@@ -2,7 +2,6 @@ type vendor_hal_fingerprint_hwservice_xiaomi, hwservice_manager_type;
 
 allow hal_fingerprint_default dmabuf_system_heap_device:chr_file r_file_perms;
 allow hal_fingerprint_default fwk_sensor_hwservice:hwservice_manager find;
-allow hal_fingerprint_default hal_touchfeature_xiaomi_hwservice:hwservice_manager find;
 allow hal_fingerprint_default input_device:chr_file rwx_file_perms;
 allow hal_fingerprint_default input_device:dir r_dir_perms;
 allow hal_fingerprint_default mnt_vendor_file:dir search;
@@ -44,7 +43,6 @@ allow hal_fingerprint_default vendor_sysfs_spss:dir search;
 allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
 allow hal_fingerprint_default vendor_xdsp_device:file r_file_perms;
 binder_call(hal_fingerprint_default, hal_fingerprint_default)
-binder_call(hal_fingerprint_default, hal_touchfeature_xiaomi_default)
 binder_call(hal_fingerprint_default, platform_app)
 binder_call(hal_fingerprint_default, surfaceflinger)
 binder_call(hal_fingerprint_default, system_app)

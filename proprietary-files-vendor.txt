@@ -12,7 +12,6 @@ odm/bin/fidoca
 odm/bin/headset_detect.sh
 odm/bin/hw/vendor.nxp.hardware.nfc@2.0-service
 odm/bin/hw/vendor.qti.camera.provider-service_64
-odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service
 odm/bin/mlipayd@1.1
 odm/bin/mrmd
 odm/bin/mtd@1.3
@@ -197,7 +196,6 @@ odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc
 odm/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc
 odm/etc/init/vendor.xiaomi.hardware.tidaservice@1.2-service.rc
 odm/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
-odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc
 odm/etc/izat_device.conf
 odm/etc/libnfc-nci.conf
 odm/etc/libnfc-nxp.conf
@@ -307,7 +305,6 @@ odm/etc/vintf/manifest/mrm.xml
 odm/etc/vintf/manifest/vendor.qti.camera.aon-impl-1.3.xml
 odm/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml
 odm/etc/vintf/manifest/vendor.qti.camera.provider.xml
-odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml
 odm/firmware/0_click_P_RTP.bin:vendor/etc/vibrator/effect_0.bin
 odm/firmware/1_doubelClick_P_RTP.bin:vendor/etc/vibrator/effect_1.bin
 odm/firmware/2_tick_P_RTP.bin:vendor/etc/vibrator/effect_2.bin
@@ -407,7 +404,6 @@ odm/lib/com.xiaomi.camhal.submodel.camxfrag.so
 odm/lib/com.xiaomi.camhal.submodel.chifrag.so
 odm/lib/hw/consumerir.qcom.so
 odm/lib/hw/fingerprint.goodix_fod.so
-odm/lib/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 odm/lib/libAF.so
 odm/lib/libMiDispDevManager.so
 odm/lib/libXMFaceFocus.so
@@ -652,7 +648,6 @@ odm/lib64/hw/com.qti.chi.offline.so
 odm/lib64/hw/com.qti.chi.override.so
 odm/lib64/hw/consumerir.qcom.so
 odm/lib64/hw/fingerprint.goodix_fod.so:odm/lib64/hw/fingerprint.goodix_fod.default.so
-odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 odm/lib64/libAF.so
 odm/lib64/libHISCppAlgos.so
 odm/lib64/libMiDispDevManager.so
@@ -2431,7 +2426,6 @@ vendor/lib/vendor.qti.sla.service@1.0-impl.so
 vendor/lib/vendor.qti.sla.service@1.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib/vendor.rongcard.hardware.eid@1.0.so
-vendor/lib/vendor.xiaomi.hw.touchfeature@1.0.so
 vendor/lib/vendor.xiaomi.sensor.citsensorservice@1.1.so
 vendor/lib/vendor.xiaomi.sensor.citsensorservice@2.0.so
 vendor/lib/vndk/libstagefright_foundation.so
@@ -3236,7 +3230,6 @@ vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.blackbox-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.wifi.hostapd-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.wifi.supplicant-V1-ndk.so
-vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
 vendor/lib64/vendor.xiaomi.modem.qms@1.0.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
