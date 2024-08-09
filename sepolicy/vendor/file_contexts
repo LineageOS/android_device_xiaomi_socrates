@@ -11,8 +11,6 @@
 /persist/camera(/.*)? u:object_r:camera_persist_file:s0
 
 # DisplayFeature
-/dev/mi_display/disp_feature u:object_r:vendor_displayfeature_device:s0
-/dev/mi_display/disp_log u:object_r:vendor_displaylog_device:s0
 /sys/devices/virtual/mi_display/disp_feature/disp-DSI-+[0-1](/.*)? u:object_r:vendor_sysfs_displayfeature:s0
 
 # Dumpstate
@@ -20,7 +18,6 @@
 
 # Fingerprint
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.xiaomi u:object_r:hal_fingerprint_default_exec:s0
-/data/vendor/fpdump(/.*)? u:object_r:vendor_fingerprint_data_file_fpdump:s0
 /data/vendor/goodix(/.*)? u:object_r:vendor_fingerprint_data_file:s0
 /dev/goodix_fp u:object_r:vendor_fingerprint_device:s0
 /mnt/vendor/persist/goodix(/.*)? u:object_r:vendor_fingerprint_data_file:s0
@@ -42,9 +39,6 @@
 # Thermal
 /(vendor|system/vendor)/bin/mi_thermald u:object_r:mi_thermald_exec:s0
 /data/vendor/thermal(/.*)? u:object_r:thermal_data_file:s0
-/sys/class/thermal/thermal_message/flash_state u:object_r:sys_thermal_flash_state:s0
-/sys/class/thermal/thermal_message/torch_real_level u:object_r:sys_thermal_torch_real_level:s0
-/sys/class/thermal/thermal_message/wifi_limit u:object_r:sys_thermal_wifi_limit:s0
-/sys/devices/virtual/thermal/thermal_message/flash_state u:object_r:sys_thermal_flash_state:s0
-/sys/devices/virtual/thermal/thermal_message/torch_real_level u:object_r:sys_thermal_torch_real_level:s0
-/sys/devices/virtual/thermal/thermal_message/wifi_limit u:object_r:sys_thermal_wifi_limit:s0
+/sys/{class,devices/virtual}/thermal/thermal_message/flash_state u:object_r:sys_thermal_flash_state:s0
+/sys/{class,devices/virtual}/thermal/thermal_message/torch_real_level u:object_r:sys_thermal_torch_real_level:s0
+/sys/{class,devices/virtual}/thermal/thermal_message/wifi_limit u:object_r:sys_thermal_wifi_limit:s0
