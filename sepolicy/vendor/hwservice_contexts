@@ -3,6 +3,3 @@ vendor.xiaomi.hardware.fx.tunnel::IMiFxTunnel                                   
 
 # Media
 vendor.dolby.hardware.dms::IDms          u:object_r:hal_dms_hwservice:s0
-
-# TouchFeature
-vendor.xiaomi.hw.touchfeature::ITouchFeature           u:object_r:hal_touchfeature_xiaomi_hwservice:s0

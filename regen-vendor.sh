@@ -1409,6 +1409,13 @@ VENDOR_SKIP_FILES=(
 
     # Touch
     "odm/bin/touch_report"
+    "odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service"
+    "odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc"
+    "odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml"
+    "odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so"
+    "odm/lib/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so"
+    "vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so"
+    "vendor/lib/vendor.xiaomi.hw.touchfeature@1.0.so"
 
     # TrustedUI
     "vendor/lib64/vendor.qti.hardware.systemhelper@1.0.so"
