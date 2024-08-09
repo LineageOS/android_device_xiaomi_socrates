@@ -1,5 +1,2 @@
-# Fingerprint
-vendor.xiaomi.hardware.fx.tunnel::IMiFxTunnel                                        u:object_r:vendor_hal_fingerprint_hwservice_xiaomi:s0
-
 # Media
 vendor.dolby.hardware.dms::IDms          u:object_r:hal_dms_hwservice:s0
