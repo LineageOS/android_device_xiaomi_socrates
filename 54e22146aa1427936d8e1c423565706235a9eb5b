@@ -16,6 +16,24 @@
       "message": "Tried kanging libsdm-color.so from elsewhere (or even just using a newer graphics stack)?",
       "revId": "54e22146aa1427936d8e1c423565706235a9eb5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db2dce8f_2dfcd616",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T12:36:38Z",
+      "side": 1,
+      "message": "libsdm-color.so from rtwo works fine, yes. Not sure if its preferred to have a shim or to use a pinned blob.",
+      "parentUuid": "df038c9e_8f4a8cde",
+      "revId": "54e22146aa1427936d8e1c423565706235a9eb5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
