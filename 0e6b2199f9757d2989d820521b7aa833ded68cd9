@@ -22,6 +22,30 @@
       },
       "revId": "0e6b2199f9757d2989d820521b7aa833ded68cd9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1830791e_57549761",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T10:28:59Z",
+      "side": 1,
+      "message": "Done. Thanks",
+      "parentUuid": "df9d77bf_d40a1180",
+      "range": {
+        "startLine": 258,
+        "startChar": 2,
+        "endLine": 258,
+        "endChar": 14
+      },
+      "revId": "0e6b2199f9757d2989d820521b7aa833ded68cd9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
