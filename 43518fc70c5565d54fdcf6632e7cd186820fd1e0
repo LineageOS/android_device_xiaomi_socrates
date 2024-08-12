@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b60408f2_c06e2c41",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32102
+      },
+      "writtenOn": "2024-08-12T19:20:48Z",
+      "side": 1,
+      "message": "a",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c6603bc2_1fb98a43",
@@ -133,6 +150,121 @@
       "writtenOn": "2024-08-12T16:04:41Z",
       "side": 1,
       "message": "Audio service only loads 64 bit ones",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f337eb8a_afd43103",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 1186,
+      "author": {
+        "id": 32102
+      },
+      "writtenOn": "2024-08-12T19:20:48Z",
+      "side": 1,
+      "message": "Duplicate",
+      "range": {
+        "startLine": 1181,
+        "startChar": 0,
+        "endLine": 1186,
+        "endChar": 37
+      },
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cde3e0fc_24c19119",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 1190,
+      "author": {
+        "id": 32102
+      },
+      "writtenOn": "2024-08-12T19:20:48Z",
+      "side": 1,
+      "message": "Duplicate",
+      "range": {
+        "startLine": 1189,
+        "startChar": 0,
+        "endLine": 1190,
+        "endChar": 25
+      },
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80d715b9_27445e2e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 1194,
+      "author": {
+        "id": 32102
+      },
+      "writtenOn": "2024-08-12T19:20:48Z",
+      "side": 1,
+      "message": "Duplicate",
+      "range": {
+        "startLine": 1193,
+        "startChar": 0,
+        "endLine": 1194,
+        "endChar": 26
+      },
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9d490be_33820842",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 1757,
+      "author": {
+        "id": 32102
+      },
+      "writtenOn": "2024-08-12T19:20:48Z",
+      "side": 1,
+      "message": "Duplicate",
+      "range": {
+        "startLine": 1756,
+        "startChar": 0,
+        "endLine": 1757,
+        "endChar": 29
+      },
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c0cf9ea_ddc41bb2",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 1760,
+      "author": {
+        "id": 32102
+      },
+      "writtenOn": "2024-08-12T19:20:48Z",
+      "side": 1,
+      "message": "Duplicate",
+      "range": {
+        "startLine": 1759,
+        "startChar": 0,
+        "endLine": 1760,
+        "endChar": 33
+      },
       "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
