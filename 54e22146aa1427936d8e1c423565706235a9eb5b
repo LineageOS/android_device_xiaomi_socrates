@@ -34,6 +34,24 @@
       "parentUuid": "df038c9e_8f4a8cde",
       "revId": "54e22146aa1427936d8e1c423565706235a9eb5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89ed26dd_060d624f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:38:49Z",
+      "side": 1,
+      "message": "Yeah either whole stack or just pinned single blob is better",
+      "parentUuid": "db2dce8f_2dfcd616",
+      "revId": "54e22146aa1427936d8e1c423565706235a9eb5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
