@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f4b0dac_8ff2e2fb",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Needed for now to satisfy build-time deps",
+      "parentUuid": "05fad4bd_08e5dde1",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b1c4d567_cd1f395c",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "This is in AOSP, you just have to enable the 64 bit audio service flag",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c67fdd0a_62853827",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done (separate change)",
+      "parentUuid": "b1c4d567_cd1f395c",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8f48287_69ab98a4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "84fb3fbb_b3e8b297",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aa5aad70_594581cc",
@@ -65,6 +119,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "Unneeded 32-bit",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fcebb643_7760b0c4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Seems needed",
+      "parentUuid": "aa5aad70_594581cc",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -86,6 +158,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "88d4e971_d8f916d8",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Seems needed",
+      "parentUuid": "20aab4c7_964ad2fd",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9b773cf6_1b8793a6",
@@ -99,6 +189,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "You shouldn\u0027t need 32 bit here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f183c176_b052ad9a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Seems needed",
+      "parentUuid": "9b773cf6_1b8793a6",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -120,6 +228,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "01e0bf7b_29e0a20a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 944,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13be3eef_57ec885a",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "423781fe_b07073dc",
@@ -133,6 +259,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "Could be moved to device tree, usually other Xiaomi devices don\u0027t ship this",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6d27ccf_f65fd6ee",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1032,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "423781fe_b07073dc",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -154,6 +298,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "39dd3c9f_08212cd4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1260,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e7187c6_7272a05a",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "63e87518_324cf087",
@@ -167,6 +329,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "32 bit not needed here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f046f23_29c2cc33",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1352,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "63e87518_324cf087",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -188,6 +368,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "795d6c82_8cbb29b5",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1533,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8acdf34_056f4fa8",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0e7d7888_57c0f74b",
@@ -201,6 +399,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "You can absolutely clean up a lot of stuff here, also maybe move to device tree",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e1dcb80_d3b78b67",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1546,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e7d7888_57c0f74b",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -222,6 +438,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "08b9a419_c10bc74a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1629,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a25b6e3_fee674b3",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1468f533_69a6d164",
@@ -235,6 +469,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "32 bit shouldn\u0027t be needed here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a73bb192_46cceedd",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1641,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1468f533_69a6d164",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -256,6 +508,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2024fed_d9e8a977",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1764,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ae44583_58d56588",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "be6757ac_600b2cbd",
@@ -269,6 +539,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "32 bit not needed",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68569214_a3026972",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1791,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "be6757ac_600b2cbd",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -290,6 +578,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5baf020_b5a48fd3",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1805,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "362d115f_7363ac3a",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b073dc2b_d596e732",
@@ -303,6 +609,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "32 bit multihal isn\u0027t needed",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b8120fa_5b013d87",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2261,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b073dc2b_d596e732",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -324,6 +648,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b67973b0_88f6c0d5",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2273,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "35f0ea6e_d606de1d",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "547a8ce3_1b1d214a",
@@ -337,6 +679,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "32 bit shouldn\u0027t be needed here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e4aaa84_7230d1f8",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2365,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "547a8ce3_1b1d214a",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -358,6 +718,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2317e2ac_da61a15f",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2473,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Would prefer to leave them there unless I need to edit them at some point",
+      "parentUuid": "c67f576b_f2daf63c",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d6a0dffd_b20b7e2d",
@@ -371,6 +749,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "These should be in AOSP, might not be needed since they\u0027re 32 bit",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd5f8aa4_e68808e4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2478,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6a0dffd_b20b7e2d",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -410,6 +806,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "781acdd9_e334690c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2586,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "273fa248_8c9ecc34",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d765d02a_32ac027b",
@@ -423,6 +837,24 @@
       "writtenOn": "2024-08-12T12:29:36Z",
       "side": 1,
       "message": "Sensors?",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85d3f8e8_948ac87f",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2597,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T15:48:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d765d02a_32ac027b",
       "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
