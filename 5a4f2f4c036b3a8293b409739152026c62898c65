@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6715485a_3a705db9",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 1420,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-08-12T12:01:58Z",
+      "side": 1,
+      "message": "after (system)",
+      "revId": "5a4f2f4c036b3a8293b409739152026c62898c65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33cd614a_4b28760d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 1957,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-08-12T12:01:58Z",
+      "side": 1,
+      "message": "empty",
+      "revId": "5a4f2f4c036b3a8293b409739152026c62898c65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d672555_c5aa7403",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 2375,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-08-12T12:01:58Z",
+      "side": 1,
+      "message": "empty",
+      "revId": "5a4f2f4c036b3a8293b409739152026c62898c65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab9c1732_bbbf3b72",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 6
+      },
+      "lineNbr": 2476,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-08-12T12:01:58Z",
+      "side": 1,
+      "message": "empty",
+      "revId": "5a4f2f4c036b3a8293b409739152026c62898c65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
