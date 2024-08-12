@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7714b52f_8f559190",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T16:04:41Z",
+      "side": 1,
+      "message": "Looking good, few nitpicks for audio\n\nbtw you have to move the audio configs to device tree to get rid of QTI bluetooth",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6603bc2_1fb98a43",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T16:04:41Z",
+      "side": 1,
+      "message": "AOSP",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abc1686f_b085daa0",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T16:04:41Z",
+      "side": 1,
+      "message": "To drop, see I4d12752ae5fb2829d6612647c8740c84967f5434 or Ibc86687a6a6c2f0767a213ccd408e7bb5de98985",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abab772a_6f624f6c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T16:04:41Z",
+      "side": 1,
+      "message": "AOSP",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45f775b3_7f093310",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T16:04:41Z",
+      "side": 1,
+      "message": "AOSP",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f71caeee_6a558c6e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T16:04:41Z",
+      "side": 1,
+      "message": "AOSP",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2762a077_8345ce67",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T16:04:41Z",
+      "side": 1,
+      "message": "32 bit HAL not needed, you could also drop the libs below except the ones required for building",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01124968_7835b761",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 12
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T16:04:41Z",
+      "side": 1,
+      "message": "Audio service only loads 64 bit ones",
+      "revId": "43518fc70c5565d54fdcf6632e7cd186820fd1e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
