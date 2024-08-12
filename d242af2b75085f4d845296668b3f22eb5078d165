@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b84c35e_fc369e8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-12T10:46:26Z",
+      "side": 1,
+      "message": "also:\n* most of */etc/permissions/ could be copied from aosp\n* a lot of 32-bit libs are likely unused\n* nfc maybe could be built from source\n* camera provider maybe too",
+      "revId": "d242af2b75085f4d845296668b3f22eb5078d165",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a14c7aa3_b794d9a7",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1213,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-12T10:46:26Z",
+      "side": 1,
+      "message": "empty",
+      "revId": "d242af2b75085f4d845296668b3f22eb5078d165",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0726adcb_22559d2e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1440,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-12T10:46:26Z",
+      "side": 1,
+      "message": "add (vendor) so that you can use --section easier",
+      "revId": "d242af2b75085f4d845296668b3f22eb5078d165",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "806e9616_b098c924",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 4
+      },
+      "lineNbr": 1508,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-12T10:46:26Z",
+      "side": 1,
+      "message": "dupe",
+      "revId": "d242af2b75085f4d845296668b3f22eb5078d165",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
