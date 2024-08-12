@@ -1,0 +1,412 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05fad4bd_08e5dde1",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "Audio HAL is 64 bit, check if you need those",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b1c4d567_cd1f395c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "This is in AOSP, you just have to enable the 64 bit audio service flag",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84fb3fbb_b3e8b297",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "Move to ACDB section",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa5aad70_594581cc",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "Unneeded 32-bit",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20aab4c7_964ad2fd",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "@1.1 impl is enough",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b773cf6_1b8793a6",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "You shouldn\u0027t need 32 bit here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13be3eef_57ec885a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 944,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "Not needed",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "423781fe_b07073dc",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1032,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "Could be moved to device tree, usually other Xiaomi devices don\u0027t ship this",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e7187c6_7272a05a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1260,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "You don\u0027t need 32 bit here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63e87518_324cf087",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1352,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "32 bit not needed here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8acdf34_056f4fa8",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1533,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "32 bit not needed here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e7d7888_57c0f74b",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1546,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "You can absolutely clean up a lot of stuff here, also maybe move to device tree",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a25b6e3_fee674b3",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1629,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "32 bit shouldn\u0027t be needed here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1468f533_69a6d164",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1641,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "32 bit shouldn\u0027t be needed here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ae44583_58d56588",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1764,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "Most of those are AOSP",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be6757ac_600b2cbd",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1791,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "32 bit not needed",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "362d115f_7363ac3a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 1805,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": ".pnscr aren\u0027t needed usually",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b073dc2b_d596e732",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2261,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "32 bit multihal isn\u0027t needed",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35f0ea6e_d606de1d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2273,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "32 bit multihal isn\u0027t needed",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "547a8ce3_1b1d214a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2365,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "32 bit shouldn\u0027t be needed here",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c67f576b_f2daf63c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2473,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "Would move this to device tree",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6a0dffd_b20b7e2d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2478,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "These should be in AOSP, might not be needed since they\u0027re 32 bit",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2ece05f_e3412f61",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2586,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "Move to qseecom section, these are just libs dlopened by liboemcrypto",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d765d02a_32ac027b",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2597,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:29:36Z",
+      "side": 1,
+      "message": "Sensors?",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
