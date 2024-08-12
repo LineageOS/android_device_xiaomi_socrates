@@ -394,6 +394,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "273fa248_8c9ecc34",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 2586,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-08-12T12:31:43Z",
+      "side": 1,
+      "message": "Actually you can also remove them if nothing else uses them since they\u0027re 32 bit and liboemcrypto is 64 bit",
+      "parentUuid": "c2ece05f_e3412f61",
+      "revId": "953979e81eb9173f498913c69fc1af60536af4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d765d02a_32ac027b",
         "filename": "proprietary-files.txt",
         "patchSetId": 8
