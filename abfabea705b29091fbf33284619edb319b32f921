@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95e4ddf2_d7074aa1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-12T11:27:54Z",
+      "side": 1,
+      "message": "I\u0027ve moved permissions to device.mk where possible. I\u0027ll see what I do about NFC/camera, if I build them from source that\u0027ll be in a separate patch.",
+      "revId": "abfabea705b29091fbf33284619edb319b32f921",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
