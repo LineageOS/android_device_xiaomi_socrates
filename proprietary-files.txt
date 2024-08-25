@@ -157,9 +157,9 @@ vendor/etc/seccomp_policy/c2audio.vendor.ext-arm.policy
 vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/usecaseKvManager.xml
--vendor/lib/libar-pal.so
--vendor/lib/libaudio_log_utils.so
--vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
+vendor/lib/libar-pal.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/hw/audio.primary.kalama.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
@@ -171,9 +171,9 @@ vendor/lib64/libadm.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 vendor/lib64/libar-gsl.so
--vendor/lib64/libar-pal.so
+vendor/lib64/libar-pal.so
 vendor/lib64/libats.so
--vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudiocloudctrl.so
 vendor/lib64/libcapiv2svacnnvendor.so
 vendor/lib64/libcapiv2svarnnvendor.so
@@ -200,13 +200,13 @@ vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/libxlog.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
--vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 
 # Audio AGM
--vendor/lib/libagm.so
--vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
--vendor/lib64/libagm.so
--vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+vendor/lib/libagm.so
+vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
+vendor/lib64/libagm.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 
 # Audio FX modules
 vendor/lib64/soundfx/libasphere.so
