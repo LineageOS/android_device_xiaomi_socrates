@@ -10,6 +10,7 @@
 #include <android-base/unique_fd.h>
 
 #include <fstream>
+#include <mutex>
 
 #include "UdfpsHandler.h"
 
@@ -67,6 +68,7 @@ class XiaomiSocratesUdfpsHander : public UdfpsHandler {
   public:
     void init(fingerprint_device_t* device) {
         mDevice = device;
+        mFodStatus = FOD_STATUS_OFF;
     }
 
     void onFingerDown(uint32_t /*x*/, uint32_t /*y*/, float /*minor*/, float /*major*/) {
@@ -100,18 +102,38 @@ class XiaomiSocratesUdfpsHander : public UdfpsHandler {
 
     void cancel() {
         LOG(INFO) << __func__;
-        setFingerDown(false);
         setFodStatus(FOD_STATUS_OFF);
     }
 
   private:
     fingerprint_device_t* mDevice;
+    std::mutex mFodStatusMutex;
+    int mFodStatus;
 
     void setFodStatus(int value) {
+        const std::lock_guard<std::mutex> lock(mFodStatusMutex);
+        setFodStatusLocked(value);
+    }
+
+    void setFodStatusLocked(int value) {
+        if (value == FOD_STATUS_OFF) {
+            setFingerDownLocked(false);
+        }
+
         set(FOD_STATUS_PATH, value);
+        mFodStatus = value;
     }
 
     void setFingerDown(bool pressed) {
+        const std::lock_guard<std::mutex> lock(mFodStatusMutex);
+        setFingerDownLocked(pressed);
+    }
+
+    void setFingerDownLocked(bool pressed) {
+        if (mFodStatus == FOD_STATUS_OFF && pressed) {
+            return;
+        }
+
         mDevice->extCmd(mDevice, COMMAND_NIT, pressed ? PARAM_NIT_FOD : PARAM_NIT_NONE);
 
         set(DISP_PARAM_PATH,
