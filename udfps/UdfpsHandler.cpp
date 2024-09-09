@@ -103,6 +103,13 @@ class XiaomiSocratesUdfpsHander : public UdfpsHandler {
         }
     }
 
+    void onEnrollResult(uint32_t fingerId, uint32_t groupId, uint32_t remaining) {
+        LOG(INFO) << __func__ << " fingerId: " << fingerId
+                              << " groupId: " << groupId
+                              << " remaining: " << remaining;
+        setFodStatus(remaining == 0 ? FOD_STATUS_OFF : FOD_STATUS_ON);
+    }
+
     void cancel() {
         LOG(INFO) << __func__;
         setFodStatus(FOD_STATUS_OFF);
