@@ -163,7 +163,6 @@ $(foreach p, $(call to-upper, $(BOARD_XIAOMI_DYNAMIC_PARTITIONS_PARTITION_LIST))
     $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := ext4) \
     $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 
-BOARD_PRODUCTIMAGE_MINIMAL_PARTITION_RESERVED_SIZE := false
 include vendor/lineage/config/BoardConfigReservedSize.mk
 
 BOARD_ROOT_EXTRA_FOLDERS += vendor/firmware vendor/firmware_mnt
