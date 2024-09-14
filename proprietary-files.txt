@@ -116,7 +116,6 @@ odm/etc/audio_policy_engine_product_strategies.xml
 odm/etc/audio_policy_engine_stream_volumes.xml
 odm/etc/backend_conf.xml
 odm/etc/init/init.cirrus.rc
-odm/lib/libagmdevice.so
 odm/lib/libaudioroute_ext.so
 odm/lib/libcrussp.so
 odm/lib64/libaudioroute_ext.so
@@ -213,7 +212,6 @@ vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libmisoundfx.so
 vendor/lib64/soundfx/libquasar.so
 vendor/lib64/soundfx/libshoebox.so
-vendor/lib64/soundfx/libspatializer.so
 vendor/lib64/soundfx/libswgamedap.so
 vendor/lib64/soundfx/libswvqe.so
 
@@ -554,7 +552,6 @@ odm/lib64/libHISCppAlgos.so
 odm/lib64/libMiMotion.so
 odm/lib64/libXMFaceFocus.so
 odm/lib64/libaachaptics.so
-odm/lib64/libagmdevice.so
 odm/lib64/libaidenoiser.so
 odm/lib64/libaidenoiserv2.so
 odm/lib64/libalAILDC.so
@@ -738,7 +735,6 @@ vendor/lib64/libcalculator_htp.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libnanopb.so
 vendor/lib64/libos.so
-vendor/lib64/libquickcamera.so
 vendor/lib64/libqvr_cam_cdsp_driver_stub.so
 vendor/lib64/libqvr_cdsp_driver_stub.so
 vendor/lib64/libqvr_hostcontroller_plugin.so
