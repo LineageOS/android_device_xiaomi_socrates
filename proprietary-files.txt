@@ -79,7 +79,7 @@ vendor/lib/rfsa/adsp/libvpp_ais_networks.so
 vendor/lib/rfsa/adsp/libvpp_frc.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 vendor/lib/rfsa/adsp/libvpp_vqa_networks.so
-vendor/lib/rfsa/adsp/nearby.napp_header
+vendor/lib/rfsa/adsp/nearby.napp_header;MODULE=nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
 
 # ANT+
@@ -658,7 +658,7 @@ vendor/etc/qvr/qvr_usb_device_list.txt
 vendor/etc/qvr/qvrservice_config.txt
 vendor/etc/seccomp_policy/qvr@2.0.policy
 vendor/framework/androidx.camera.extensions.impl.jar
-vendor/lib64/camera/libPlatformValidatorShared.so
+vendor/lib64/camera/libPlatformValidatorShared.so;MODULE_PREFIX=-camera
 vendor/lib64/libDspIOProxy_stub.so
 vendor/lib64/libMapService.so
 vendor/lib64/libPlatformValidatorShared.so
