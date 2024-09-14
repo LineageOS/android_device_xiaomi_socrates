@@ -1493,8 +1493,6 @@ odm/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
 odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
 odm/lib64/libmlipay.so
 odm/lib64/libmlipay@1.1.so
-odm/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
-odm/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 
 # MMI
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
@@ -1515,9 +1513,6 @@ odm/lib64/vendor.xiaomi.hardware.mrm-V1-ndk_platform.so
 odm/bin/mtd@1.3
 odm/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-service.rc
 odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mtdservice.xml
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so
-odm/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
 odm/lib64/vendor.xiaomi.hardware.mtdservice@1.3.so
 
 # Media
