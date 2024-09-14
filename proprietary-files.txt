@@ -2222,9 +2222,6 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 odm/etc/ueventd.rc
 vendor/etc/ueventd.rc
 
-# VNDK
-vendor/lib64/vndk/libnl.so
-
 # VPP
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
