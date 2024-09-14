@@ -495,6 +495,7 @@ odm/lib64/hw/com.qti.chi.override.so
 odm/lib64/libAF.so
 odm/lib64/libHISCppAlgos.so
 odm/lib64/libMiMotion.so
+odm/lib64/libTrueSight.so
 odm/lib64/libXMFaceFocus.so
 odm/lib64/libaachaptics.so
 odm/lib64/libaidenoiser.so
@@ -512,6 +513,8 @@ odm/lib64/libarc_sat.so
 odm/lib64/libarc_translate.so
 odm/lib64/libarccali_data.so
 odm/lib64/libarcsoft_beautyshot.so
+odm/lib64/libarcsoft_bokeh_high_dynamic_range.so
+odm/lib64/libarcsoft_dualcam_refocus_image.so
 odm/lib64/libarcsoft_dualcam_refocus_post.so
 odm/lib64/libarcsoft_dualcam_refocus_video.so
 odm/lib64/libarcsoft_hdr_detection.so
@@ -520,6 +523,7 @@ odm/lib64/libarcsoft_low_light_hdr.so
 odm/lib64/libarcsoft_mf_superresolution.so
 odm/lib64/libarcsoft_qnnhtp.so
 odm/lib64/libarcsoft_super_night_detection.so
+odm/lib64/libarcsoft_super_night_raw.so
 odm/lib64/libarcsoft_zoom_high_dynamic_range.so
 odm/lib64/libbeauty_face_interface.so
 odm/lib64/libbitmlengine.so
@@ -573,7 +577,8 @@ odm/lib64/libmfec.so
 odm/lib64/libmiSensorCtrl.so
 odm/lib64/libmiStereoFactoryRemapBasicLib.so
 odm/lib64/libmiStereoFactoryRemapLib.so
-odm/lib64/libmi_dspp.so
+odm/lib64/libmiai_deblur.so
+odm/lib64/libmiai_portraitsupernight.so
 odm/lib64/libmialgo_ai_vision.so
 odm/lib64/libmialgo_aio_seg.so
 odm/lib64/libmialgo_globalsaliency.so
@@ -613,6 +618,7 @@ odm/lib64/libomp.so
 odm/lib64/libopencv.so
 odm/lib64/libopencv3a.so
 odm/lib64/libopestriping.so
+odm/lib64/libportrait_repair_qnn.so
 odm/lib64/libqll.so
 odm/lib64/libqll10.so
 odm/lib64/libqllengine.so
@@ -635,6 +641,8 @@ odm/lib64/libvidhance_ldc.so
 odm/lib64/libvidhance_stabilizer.so
 odm/lib64/libvidhance_super_stabilization.so
 odm/lib64/libwrapper_dlengine.so
+odm/lib64/libxmi_hdr_checker.so
+odm/lib64/libxmi_high_dynamic_range.so
 odm/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 odm/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 odm/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so
@@ -692,6 +700,7 @@ vendor/lib64/libqvrservice_ov9282_hvx_tuning.so
 vendor/lib64/libqvrservice_v4l_ov7251_hvx_tuning.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
+vendor/lib64/vendor.qti.hardware.qxr-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
 
 # Camera components
