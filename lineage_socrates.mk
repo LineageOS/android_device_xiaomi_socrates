@@ -6,7 +6,7 @@
 
 # Inherit common AOSP configurations
 $(call inherit-product, build/make/target/product/full_base_telephony.mk)
-$(call inherit-product, build/make/target/product/core_64_bit.mk)
+$(call inherit-product, build/make/target/product/core_64_bit_only.mk)
 
 # Inherit device-specific configurations
 $(call inherit-product, device/xiaomi/socrates/device.mk)

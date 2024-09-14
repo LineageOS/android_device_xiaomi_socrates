@@ -94,6 +94,9 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i '/persist.vendor.radio.redir_party_num/ s/true/false/g' "${2}"
             ;;
+        vendor/etc/init/hw/init.qcom.rc)
+            sed -i s:/vendor/bin/ssgqmigd:/vendor/bin/ssgqmigd64:g "${2}"
+            ;;
         *)
             return 1
             ;;
