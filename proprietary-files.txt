@@ -2252,13 +2252,6 @@ vendor/firmware/vpu30_4v_unsigned.mbn
 vendor/firmware/vpu33_4v.mbn
 vendor/firmware/vpu33_4v_unsigned.mbn
 
-# VSIMD
-odm/bin/vsimd
-odm/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
-odm/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml
-odm/lib/libvsim.so
-odm/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
-
 # Vibrator firmware
 odm/firmware/0_click_P_RTP.bin:vendor/etc/vibrator/effect_0.bin
 odm/firmware/1_doubelClick_P_RTP.bin:vendor/etc/vibrator/effect_1.bin
