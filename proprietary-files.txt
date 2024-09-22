@@ -117,7 +117,7 @@ odm/etc/audio_policy_engine_stream_volumes.xml
 odm/etc/backend_conf.xml
 odm/etc/init/init.cirrus.rc
 odm/lib64/libaudioroute_ext.so
-odm/lib64/libcrussp.so
+odm/lib64/libcrussp.so;DISABLE_CHECKELF
 vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/audio/sku_kalama/adsp_sleep_monitor.conf
 vendor/etc/audio/sku_kalama/audio_effects.conf
@@ -152,7 +152,6 @@ vendor/etc/seccomp_policy/c2audio.vendor.base-arm64.policy
 vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/usecaseKvManager.xml
-vendor/lib64/hw/audio.primary.kalama.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libEvrcSwCodec.so
@@ -175,7 +174,7 @@ vendor/lib64/libdsd2pcm.so
 vendor/lib64/libeai_fixed.so
 vendor/lib64/libeai_float.so
 vendor/lib64/libfcsam.so;FIX_SONAME
-vendor/lib64/libkaraokepal.so
+vendor/lib64/libkaraokepal.so;DISABLE_CHECKELF
 vendor/lib64/liblistensoundmodel2vendor.so
 vendor/lib64/liblx-ar_util.so
 vendor/lib64/liblx-osal.so
