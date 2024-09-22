@@ -191,7 +191,9 @@ vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/libxlog.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
-vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
+
+# Audio - from dm3qxxx-user-14-UP1A.231005.007-S918BXXU6CXH7-release-keys
+vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so|f0fc53c87cf6e0fd504c929af889c6979604ad12
 
 # Audio AGM
 vendor/lib64/libagm.so
