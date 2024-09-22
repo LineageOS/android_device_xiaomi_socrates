@@ -46,6 +46,7 @@ function lib_to_package_fixup_vendor_variants() {
         vendor.qti.diaghal@1.0)
             echo "$1-vendor"
             ;;
+        audio.primary.kalama | \
         libagmclient | \
         libpalclient | \
         libwfdaac_vendor | \
@@ -62,6 +63,7 @@ function lib_to_package_fixup_odm_variants() {
     fi
 
     case "$1" in
+        audio.primary.kalama | \
         libagmmixer | \
         vendor.qti.hardware.display.config-V2-ndk) ;;
         *)
