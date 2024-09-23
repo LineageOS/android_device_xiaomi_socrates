@@ -70,10 +70,6 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i s/xml=version/xml\ version/g "${2}"
             ;;
-        vendor/etc/audio/sku_kalama/audio_policy_configuration.xml)
-            [ "$2" = "" ] && return 0
-            sed -i s/AUDIO_FORMAT_LC3//g "${2}"
-            ;;
         vendor/bin/hw/android.hardware.security.keymint-service-qti)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "android.hardware.security.rkp-V3-ndk.so" "${2}"
