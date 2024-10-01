@@ -82,9 +82,16 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             grep -q "dolbycodec_shim.so" "${2}" || "${PATCHELF}" --add-needed "dolbycodec_shim.so" "${2}"
             ;;
+        vendor/etc/seccomp_policy/atfwd@2.0.policy|\
+        vendor/etc/seccomp_policy/wfdhdcphalservice.policy|\
+        vendor/etc/seccomp_policy/modemManager.policy)
+            [ "$2" = "" ] && return 0
+            grep -q "gettid: 1" "${2}" || echo -e "\ngettid: 1" >> "${2}"
+            ;;
         vendor/etc/seccomp_policy/qwesd@2.0.policy)
             [ "$2" = "" ] && return 0
-            echo "pipe2: 1" >> "${2}"
+            grep -q "gettid: 1" "${2}" || echo -e "\ngettid: 1" >> "${2}"
+            grep -q "pipe2: 1" "${2}" || echo -e "\npipe2: 1" >> "${2}"
             ;;
         vendor/etc/qcril_database/upgrade/config/6.0_config.sql)
             [ "$2" = "" ] && return 0
