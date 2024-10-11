@@ -68,15 +68,15 @@ function blob_fixup() {
     case "${1}" in
         odm/etc/camera/*.xml)
             [ "$2" = "" ] && return 0
-            sed -i s/xml=version/xml\ version/g "${2}"
+            sed -i 's/xml=version/xml\ version/g' "${2}"
             ;;
         vendor/bin/hw/android.hardware.security.keymint-service-qti)
             [ "$2" = "" ] && return 0
-            "${PATCHELF}" --add-needed "android.hardware.security.rkp-V3-ndk.so" "${2}"
+            grep -q "android.hardware.security.rkp-V3-ndk.so" "${2}" || "${PATCHELF}" --add-needed "android.hardware.security.rkp-V3-ndk.so" "${2}"
             ;;
         odm/lib64/libmt@1.3.so)
             [ "$2" = "" ] && return 0
-            "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
+            grep -q "libcrypto-v33.so" "${2}" || "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
             ;;
         vendor/lib/c2.dolby.client.so | vendor/lib64/c2.dolby.client.so)
             [ "$2" = "" ] && return 0
@@ -98,9 +98,11 @@ function blob_fixup() {
             sed -i '/persist.vendor.radio.redir_party_num/ s/true/false/g' "${2}"
             ;;
         vendor/etc/init/hw/init.qcom.rc)
-            sed -i s:/vendor/bin/ssgqmigd:/vendor/bin/ssgqmigd64:g "${2}"
+            [ "$2" = "" ] && return 0
+            grep -q "/vendor/bin/ssgqmigd64" "${2}" || sed -i 's:/vendor/bin/ssgqmigd:/vendor/bin/ssgqmigd64:g' "${2}"
             ;;
         vendor/lib64/libqtikeymint.so)
+            [ "$2" = "" ] && return 0
             grep -q "android.hardware.security.rkp-V3-ndk.so" "${2}" || ${PATCHELF} --add-needed "android.hardware.security.rkp-V3-ndk.so" "${2}"
             ;;
         vendor/lib64/vendor.libdpmframework.so)
