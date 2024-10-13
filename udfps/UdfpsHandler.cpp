@@ -42,25 +42,6 @@ static void set(const std::string& path, const T& value) {
     file << value;
 }
 
-static bool readBool(int fd) {
-    char c;
-    int rc;
-
-    rc = lseek(fd, 0, SEEK_SET);
-    if (rc) {
-        LOG(ERROR) << "failed to seek fd, err: " << rc;
-        return false;
-    }
-
-    rc = read(fd, &c, sizeof(char));
-    if (rc != 1) {
-        LOG(ERROR) << "failed to read bool from fd, err: " << rc;
-        return false;
-    }
-
-    return c != '0';
-}
-
 }  // anonymous namespace
 
 class XiaomiSocratesUdfpsHander : public UdfpsHandler {
