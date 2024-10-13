@@ -32,7 +32,7 @@
 
 #define FOD_PRESS_STATUS_PATH "/sys/class/touch/touch_dev/fod_press_status"
 
-#define FINGERPRINT_ACQUIRED_VENDOR 6
+#define FINGERPRINT_ACQUIRED_VENDOR 7
 
 namespace {
 
