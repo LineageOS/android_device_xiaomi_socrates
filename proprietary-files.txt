@@ -1422,10 +1422,8 @@ vendor/bin/init.kernel.post_boot-kalama.sh
 vendor/bin/init.kernel.post_boot.sh
 vendor/bin/init.qcom.early_boot.sh
 vendor/bin/init.qcom.sh
-vendor/bin/init.qcom.usb.sh
 vendor/etc/init/hw/init.qcom.factory.rc
 vendor/etc/init/hw/init.qcom.rc
-vendor/etc/init/hw/init.qcom.usb.rc
 vendor/etc/init/hw/init.qti.kernel.rc
 vendor/etc/init/hw/init.target.rc
 vendor/etc/init/vendor.qti.diag_userdebug.rc
