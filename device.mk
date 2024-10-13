@@ -247,6 +247,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
+# Properties
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/build.fingerprint.prop:$(TARGET_COPY_OUT_SYSTEM)/build.fingerprint.prop
+
 # PSI
 PRODUCT_PACKAGES += \
     libpsi
