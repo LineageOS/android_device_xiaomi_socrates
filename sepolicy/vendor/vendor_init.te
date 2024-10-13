@@ -1,1 +1,2 @@
 set_prop(vendor_init, vendor_nfc_mi_prop)
+set_prop(vendor_init, vendor_fp_prop)
