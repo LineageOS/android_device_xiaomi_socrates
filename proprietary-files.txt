@@ -613,6 +613,8 @@ odm/lib64/libvidhance_super_stabilization.so
 odm/lib64/libwrapper_dlengine.so
 odm/lib64/libxmi_hdr_checker.so
 odm/lib64/libxmi_high_dynamic_range.so
+odm/lib64/libxmi_slow_motion_mein.so
+odm/lib64/libxmi_slow_motion_triger.so
 odm/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 odm/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 odm/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so
@@ -798,12 +800,15 @@ odm/lib64/camera/plugins/com.xiaomi.plugin.arcsoftsll.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.capbokeh.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.capdepth.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.caphdr.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.deflicker.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.depurple.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.frontbokeh.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.gpu.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.hdr.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.ldc.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.memcpy.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.miaideblur.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.miaiie.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.miaiportraitsupernight.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.mialgosnsc.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.offlinepostproc.so
