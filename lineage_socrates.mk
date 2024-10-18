@@ -20,4 +20,5 @@ PRODUCT_MODEL := 22127RK46C
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := Redmi/socrates/socrates:14/UKQ1.230804.001/V816.0.11.0.UMKCNXM:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildFingerprint=Redmi/socrates/socrates:14/UKQ1.230804.001/V816.0.11.0.UMKCNXM:user/release-keys
