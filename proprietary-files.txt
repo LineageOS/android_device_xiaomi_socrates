@@ -478,7 +478,7 @@ odm/lib64/libalAILDC.so;DISABLE_CHECKELF
 odm/lib64/libalAI_Seg.so
 odm/lib64/libalCFR.so
 odm/lib64/libalLDC.so;DISABLE_CHECKELF
-odm/lib64/libalNN.so;FIX_SONAME
+odm/lib64/libalNN.so
 odm/lib64/libalNN_engine.so
 odm/lib64/libalNN_gpu.so
 odm/lib64/libalNN_snpe.so;FIX_SONAME
@@ -634,7 +634,7 @@ vendor/etc/qvr/qvr_usb_device_list.txt
 vendor/etc/qvr/qvrservice_config.txt
 vendor/etc/seccomp_policy/qvr@2.0.policy
 vendor/framework/androidx.camera.extensions.impl.jar
-vendor/lib64/camera/libPlatformValidatorShared.so;MODULE_PREFIX=-camera
+vendor/lib64/camera/libPlatformValidatorShared.so;MODULE_SUFFIX=-camera
 vendor/lib64/libDspIOProxy_stub.so
 vendor/lib64/libMapService.so
 vendor/lib64/libPlatformValidatorShared.so
