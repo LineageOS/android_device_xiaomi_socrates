@@ -319,6 +319,10 @@ odm/etc/camera/CFR_para_UW_V01_HDR.bin
 odm/etc/camera/CFR_para_UW_V01_SN.bin
 odm/etc/camera/GpuKernelRepo.pb
 odm/etc/camera/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc
+odm/etc/camera/altekldc_packdata_0x01.bin
+odm/etc/camera/altekldc_segmodel.bin
+odm/etc/camera/altekldc_tuningdata.bin
+odm/etc/camera/altekldc_tuningdata_ai.bin
 odm/etc/camera/anc_1080p.bin
 odm/etc/camera/anc_4k.bin
 odm/etc/camera/arcsat_2sat.bin
