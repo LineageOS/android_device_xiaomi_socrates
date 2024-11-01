@@ -281,7 +281,6 @@ pinctrl_lpi_dlkm.ko
 qcrypto-msm_dlkm.ko
 ipa_clientsm.ko
 rmnet_shs.ko
-cameralog.ko
 wcd939x_slave_dlkm.ko
 radio-i2c-rtc6226-qca.ko
 ipanetm.ko
