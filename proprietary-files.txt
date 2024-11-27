@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Redmi K60 Pro (OS1.0.11.0).
+## are from Redmi K60 Pro (OS2.0.3.0).
 
 # ACDBs
 odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb
@@ -533,7 +533,6 @@ odm/lib64/libcom.xiaomi.metadatautils.so
 odm/lib64/libcom.xiaomi.pluginutils.so
 odm/lib64/libcommonchiutils.so
 odm/lib64/libdeflicker.so
-odm/lib64/libdeflickerNM.so
 odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
 odm/lib64/libfastmessage.so
@@ -666,10 +665,8 @@ vendor/lib64/libnanopb.so
 vendor/lib64/libos.so
 vendor/lib64/libqvr_cam_cdsp_driver_stub.so
 vendor/lib64/libqvr_cdsp_driver_stub.so
-vendor/lib64/libqvr_hostcontroller_plugin.so
 vendor/lib64/libqvrcamera_client.qti.so
 vendor/lib64/libqvrcameraplayback.so
-vendor/lib64/libqvrservice.so
 vendor/lib64/libqvrservice_client.qti.so
 vendor/lib64/libqvrservice_ov7251_hvx_tuning.so
 vendor/lib64/libqvrservice_ov9282_hvx_tuning.so
@@ -804,7 +801,6 @@ odm/lib64/camera/plugins/com.xiaomi.plugin.arcsoftsll.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.capbokeh.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.capdepth.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.caphdr.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.deflicker.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.depurple.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.frontbokeh.so
 odm/lib64/camera/plugins/com.xiaomi.plugin.gpu.so
@@ -1161,11 +1157,17 @@ vendor/etc/permissions/qti_fingerprint_interface.xml
 vendor/etc/vintf/manifest/fod.xml
 
 # GNSS
+odm/bin/hw/android.hardware.gnss-aidl-service-qti
+odm/etc/init/android.hardware.gnss-aidl-service-qti.rc
 odm/etc/izat_device.conf
+odm/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
+odm/etc/vintf/manifest/vendor.qti.gnss-service.xml
+odm/lib64/vendor.qti.gnss-V3-ndk.so
+odm/lib64/vendor.qti.gnss-V4-ndk.so
+odm/lib64/vendor.qti.gnss-service.so
 vendor/bin/edgnss-daemon
 vendor/bin/engine-service
 vendor/bin/garden_app
-vendor/bin/hw/android.hardware.gnss-aidl-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server;DISABLE_CHECKELF
 vendor/bin/mlid
@@ -1175,7 +1177,6 @@ vendor/bin/xtwifi-client
 vendor/etc/apdr.conf
 vendor/etc/batching.conf
 vendor/etc/gps.conf
-vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc
 vendor/etc/init/init.vendor.ins.rc
 vendor/etc/init/loc-launcher.rc
 vendor/etc/init/vendor.qsap.location.rc
@@ -1190,8 +1191,6 @@ vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy
 vendor/etc/seccomp_policy/qsap_qapeservice.policy
 vendor/etc/seccomp_policy/qsap_voiceui.policy
-vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
-vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
 vendor/etc/xtwifi.conf
 vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so
 vendor/lib64/libMiVDR.so
@@ -1237,9 +1236,6 @@ vendor/lib64/libslimclient.so
 vendor/lib64/libsynergy_loc_api.so
 vendor/lib64/libsys_info_cache.so
 vendor/lib64/libxtadapter.so
-vendor/lib64/vendor.qti.gnss-V3-ndk.so
-vendor/lib64/vendor.qti.gnss-V4-ndk.so
-vendor/lib64/vendor.qti.gnss-service.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -1293,8 +1289,8 @@ vendor/lib64/libllvm-qgl.so
 vendor/lib64/hw/vulkan.adreno.so
 
 # IMS (system)
+system/lib64/vendor.qti.diaghal-V1-ndk.so
 system_ext/app/ImsRcsService/ImsRcsService.apk
-system_ext/app/QtiTelephony/QtiTelephony.apk
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
 system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
@@ -1339,6 +1335,7 @@ system_ext/lib64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
+system_ext/priv-app/QtiTelephony/QtiTelephony.apk
 system_ext/priv-app/ims/ims.apk
 
 # IMS (vendor)
@@ -1559,15 +1556,17 @@ vendor/etc/init/minidump.rc
 vendor/etc/tzlog.dict
 
 # NFC
+odm/bin/hw/android.hardware.nfc@1.2-service-st
 odm/bin/hw/vendor.nxp.hardware.nfc@2.0-service
+odm/etc/init/android.hardware.nfc@1.2-service-st.rc
 odm/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc
 odm/etc/libnfc-nci.conf
 odm/etc/libnfc-nxp.conf
 odm/etc/libnfc-nxp_RF.conf
 odm/etc/permissions/android.hardware.nfc.beam.xml
+odm/lib64/libstnfc-auth.so
 odm/lib64/nfc_nci.nqx.default.hw.so
-vendor/bin/hw/android.hardware.nfc@1.2-service-st
-vendor/etc/init/android.hardware.nfc@1.2-service-st.rc
+odm/lib64/nfc_nci.st21nfc.st.so
 vendor/etc/libnfc-SN220_19_2MHZ.conf
 vendor/etc/libnfc-SN220_38_4MHZ.conf
 vendor/etc/libnfc-hal-st-519_mtp.conf
@@ -1585,8 +1584,6 @@ vendor/firmware/st54k_conf_38.4MHz.bin
 vendor/lib64/libsn100u_fw.so;FIX_SONAME
 vendor/lib64/libsn220u_fw.so;FIX_SONAME
 vendor/lib64/libstfactory-vendor.so
-vendor/lib64/libstnfc-auth.so
-vendor/lib64/nfc_nci.st21nfc.st.so
 vendor/lib64/se_nq_extn_client.so
 vendor/lib64/vendor.nxp.hardware.nfc@2.0.so
 
@@ -1895,10 +1892,7 @@ vendor/lib64/libril-legacy.so
 vendor/lib64/libril-qc-ltedirectdisc.so
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/librilqmimiscservices.so
-vendor/lib64/libxiaomi_diag.so
-vendor/lib64/libxiaomi_modemapi.so
 vendor/lib64/libxiaomi_qcril.so
-vendor/lib64/libxiaomi_utils.so
 vendor/lib64/qcrilInterfaces.so
 vendor/lib64/qcrilMarshal.so
 vendor/lib64/qcrilNrQmiModule.so

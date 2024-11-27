@@ -78,12 +78,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/bin/modemManager' : blob_fixup()
         .binary_regex_replace(b'fbec992f7f41a65ac8000aeda1bc634e24a12c7513faae379ae889a53553325a', dev_null_sha256)  # /vendor/lib/libqesdk2_0.so
         .binary_regex_replace(b'40821d2c697710a692462776324a4b913935878b3b5f2232a2cd297a6f3ff37f', dev_null_sha256), # /vendor/lib/libqesdk_manager.so
-    ('vendor/etc/seccomp_policy/atfwd@2.0.policy',
-     'vendor/etc/seccomp_policy/wfdhdcphalservice.policy',
-     'vendor/etc/seccomp_policy/modemManager.policy') : blob_fixup()
-        .add_line_if_missing('gettid: 1'),
     'vendor/etc/seccomp_policy/qwesd@2.0.policy' : blob_fixup()
-        .add_line_if_missing('gettid: 1')
         .add_line_if_missing('pipe2: 1'),
     'vendor/etc/qcril_database/upgrade/config/6.0_config.sql' : blob_fixup()
         .regex_replace('(persist\\.vendor\\.radio\\.redir_party_num.*)true', '\\1false'),
