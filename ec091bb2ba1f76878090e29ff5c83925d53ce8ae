@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9b7c0a2_78448169",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2024-12-22T15:58:12Z",
+      "side": 1,
+      "message": "Can\u0027t you switch to AOSP behaviour instead? (aka `media_profiles_V1_0.xml`) ?? https://cs.android.com/android/platform/superproject/main/+/main:frameworks/av/media/libmedia/MediaProfiles.cpp;l\u003d43?q\u003dmedia_profiles.xml\u0026start\u003d11",
+      "revId": "ec091bb2ba1f76878090e29ff5c83925d53ce8ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
