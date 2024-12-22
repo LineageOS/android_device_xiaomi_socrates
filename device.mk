@@ -239,6 +239,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlaySocrates \
     FrameworkResOverlaySocrates \
+    LineageSdkOverlaySocrates \
     SystemUIOverlaySocrates \
     SettingsOverlaySocrates \
     TelephonyOverlaySocrates
