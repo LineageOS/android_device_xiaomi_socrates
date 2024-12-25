@@ -166,7 +166,6 @@ spmi-pmic-arb.ko
 spmi-pmic-arb-debug.ko
 realtek.ko
 mcp25xxfd.ko
-tc956x_pcie_eth.ko
 msm_sharedmem.ko
 phy-generic.ko
 phy-qcom-emu.ko
