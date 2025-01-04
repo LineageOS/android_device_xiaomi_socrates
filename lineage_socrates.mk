@@ -16,7 +16,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_socrates
 PRODUCT_DEVICE := socrates
-PRODUCT_MODEL := Redmi K60 Pro
+PRODUCT_MODEL := 22127RK46C
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
