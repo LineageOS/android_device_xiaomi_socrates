@@ -46,6 +46,30 @@
       },
       "revId": "62b963913d353711d4d36c3a7ec6ad4646df0fec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ed0294d_78fcb430",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-06T16:09:31Z",
+      "side": 1,
+      "message": "use git add -p and you\u0027ll spot such stuff before comitting ^^",
+      "parentUuid": "7d882dd0_f4452809",
+      "range": {
+        "startLine": 213,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 23
+      },
+      "revId": "62b963913d353711d4d36c3a7ec6ad4646df0fec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
