@@ -70,6 +70,30 @@
       },
       "revId": "62b963913d353711d4d36c3a7ec6ad4646df0fec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc28a61d_c1353d4b",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2025-01-06T17:09:13Z",
+      "side": 1,
+      "message": "Ack and done",
+      "parentUuid": "6ed0294d_78fcb430",
+      "range": {
+        "startLine": 213,
+        "startChar": 0,
+        "endLine": 214,
+        "endChar": 23
+      },
+      "revId": "62b963913d353711d4d36c3a7ec6ad4646df0fec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
