@@ -87,8 +87,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_line_if_missing('pipe2: 1'),
     'vendor/etc/qcril_database/upgrade/config/6.0_config.sql' : blob_fixup()
         .regex_replace('(persist\\.vendor\\.radio\\.redir_party_num.*)true', '\\1false'),
-    'vendor/etc/init/hw/init.qcom.rc' : blob_fixup()
-        .regex_replace('/vendor/bin/ssgqmigd\\b', '/vendor/bin/ssgqmigd64'),
     'vendor/lib64/c2.dolby.client.so' : blob_fixup()
         .add_needed('dolbycodec_shim.so'),
     'vendor/lib64/libqcodec2_core.so' : blob_fixup()
