@@ -208,6 +208,11 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
 
+# ModemManager
+PRODUCT_PACKAGES += \
+    libqesdk_manager_32bit_stub \
+    libqesdk2_0_32bit_stub
+
 # Network
 PRODUCT_PACKAGES += \
     libnetfilter_conntrack \
