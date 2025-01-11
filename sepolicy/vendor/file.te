@@ -9,4 +9,3 @@ type thermal_data_file, data_file_type, file_type;
 type vendor_fingerprint_data_file, data_file_type, file_type;
 type vendor_proc_perflock_records, fs_type, proc_type;
 type vendor_sysfs_displayfeature, fs_type, sysfs_type;
-type vendor_sysfs_qcom_battery, fs_type, sysfs_type;
