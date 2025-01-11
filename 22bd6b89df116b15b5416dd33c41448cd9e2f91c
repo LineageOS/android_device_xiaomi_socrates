@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a38e3d3_9b4a686c",
+        "filename": "sepolicy/vendor/batterysecret.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2025-01-11T23:02:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c65bd9fe_929d2123",
+      "revId": "22bd6b89df116b15b5416dd33c41448cd9e2f91c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "30c6389d_b3b989ff",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-01-11T21:49:52Z",
       "side": 1,
       "message": "Can be removed now, it\u0027s granted above",
+      "revId": "22bd6b89df116b15b5416dd33c41448cd9e2f91c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "957e0afe_5281d112",
+        "filename": "sepolicy/vendor/mi_thermald.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2025-01-11T23:02:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "30c6389d_b3b989ff",
       "revId": "22bd6b89df116b15b5416dd33c41448cd9e2f91c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
