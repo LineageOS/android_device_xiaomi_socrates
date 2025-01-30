@@ -242,7 +242,8 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlaySocrates \
     SystemUIOverlaySocrates \
     SettingsOverlaySocrates \
-    TelephonyOverlaySocrates
+    TelephonyOverlaySocrates \
+    WifiOverlaySocrates
 
 # Partitions
 PRODUCT_PACKAGES += \
