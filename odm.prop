@@ -1,3 +1,6 @@
+# Bluetooth
+bluetooth.device.default_name=Redmi K60 Pro
+
 # Display
 vendor.display.disable_3d_adaptive_tm=1
 ro.vendor.display.switch_resolution.support=1
