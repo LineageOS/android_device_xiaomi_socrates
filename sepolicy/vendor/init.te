@@ -1,9 +1,0 @@
-allow init sysfs_goodix_touch:file w_file_perms;
-allow init vendor_configs_file:dir mounton;
-allow init vendor_configs_file:file mounton;
-
-recovery_only(`
-allow init init:capability { sys_module };
-allow init proc:file w_file_perms;
-allow init rootfs:system { module_load };
-')

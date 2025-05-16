@@ -20,12 +20,6 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
-    <!-- Doze: does this device support STATE_DOZE?  -->
-    <bool name="doze_display_state_supported">true</bool>
-
-    <!-- Color of the UDFPS pressed view -->
-    <color name="config_udfpsColor">#00FFFFFF</color>
-
     <!-- paddings for container with status icons and battery -->
     <dimen name="status_bar_icons_padding_start">0dp</dimen>
     <dimen name="status_bar_icons_padding_end">0dp</dimen>

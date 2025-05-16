@@ -1,2 +1,0 @@
-get_prop(nfc, vendor_audio_prop)
-get_prop(nfc, vendor_nfc_mi_prop)
