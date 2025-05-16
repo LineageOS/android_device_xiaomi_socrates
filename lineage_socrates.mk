@@ -21,4 +21,4 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=Redmi/socrates/socrates:15/AQ3A.240912.001/OS2.0.102.0.VMKCNXM:user/release-keys
+    BuildFingerprint=Redmi/socrates/socrates:15/AQ3A.240912.001/OS2.0.106.0.VMKCNXM:user/release-keys
