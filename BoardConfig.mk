@@ -11,7 +11,6 @@ include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 
 # Kernel
 BOARD_VENDOR_KERNEL_MODULES_LOAD += \
-    wcd_usbss_i2c.ko \
     wl2866d.ko \
     xiaomi_touch.ko \
     goodix_core.ko \
