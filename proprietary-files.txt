@@ -229,15 +229,15 @@ odm/lib64/hw/com.qti.chi.override.so
 odm/lib64/libAF.so
 odm/lib64/libHISCppAlgos.so
 odm/lib64/libMiMotion.so
-odm/lib64/libTrueSight.so;DISABLE_CHECKELF
+odm/lib64/libTrueSight.so
 odm/lib64/libXMFaceFocus.so
 odm/lib64/libaachaptics.so
 odm/lib64/libaidenoiser.so
 odm/lib64/libaidenoiserv2.so
-odm/lib64/libalAILDC.so;DISABLE_CHECKELF
+odm/lib64/libalAILDC.so
 odm/lib64/libalAI_Seg.so
 odm/lib64/libalCFR.so
-odm/lib64/libalLDC.so;DISABLE_CHECKELF
+odm/lib64/libalLDC.so
 odm/lib64/libalNN.so
 odm/lib64/libalNN_engine.so
 odm/lib64/libalNN_gpu.so
@@ -343,7 +343,7 @@ odm/lib64/libmmcamera_lscv35.so
 odm/lib64/libmmcamera_mfnr.so
 odm/lib64/libmmcamera_mfnr_t4.so
 odm/lib64/libmmcamera_pdpc.so
-odm/lib64/libmorpho_ubwc.so;DISABLE_CHECKELF
+odm/lib64/libmorpho_ubwc.so
 odm/lib64/libmorpho_video_stabilizer.so
 odm/lib64/libmpbase.so
 odm/lib64/libofflinefeatureintf.so
@@ -364,7 +364,7 @@ odm/lib64/libswregistrationalgo.so
 odm/lib64/libtfestriping.so
 odm/lib64/libubifocus.so
 odm/lib64/libvideoBokeh.so
-odm/lib64/libMiVideoFilter.so;DISABLE_CHECKELF
+odm/lib64/libMiVideoFilter.so
 odm/lib64/libvideoml.so
 odm/lib64/libvidhance.so
 odm/lib64/libvidhance_active_ois.so
