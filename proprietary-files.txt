@@ -364,7 +364,7 @@ odm/lib64/libswregistrationalgo.so
 odm/lib64/libtfestriping.so
 odm/lib64/libubifocus.so
 odm/lib64/libvideoBokeh.so
-odm/lib64/libMiVideoFilter.so
+odm/lib64/libMiVideoFilter.so;DISABLE_CHECKELF
 odm/lib64/libvideoml.so
 odm/lib64/libvidhance.so
 odm/lib64/libvidhance_active_ois.so
