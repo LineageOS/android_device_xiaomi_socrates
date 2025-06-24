@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "73bc2e5b_2f088001",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-06-24T07:51:05Z",
+      "side": 1,
+      "message": "Also you need to learn what this word means.",
+      "range": {
+        "startLine": 7,
+        "startChar": 10,
+        "endLine": 7,
+        "endChar": 20
+      },
+      "revId": "2e9d1824fd3251d81b81d823ac5a6889ac8d9b73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e33ff502_5d6b4d45",
         "filename": "device.mk",
         "patchSetId": 2
