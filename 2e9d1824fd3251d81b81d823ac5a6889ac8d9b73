@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a2847c8_1983fd97",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 35315
+      },
+      "writtenOn": "2025-06-24T08:12:27Z",
+      "side": 1,
+      "message": "This commit cherry pick is from: https://github.com/LineageOS/android_device_xiaomi_fuxi/commit/c23e0b50a5fa6b750ea0ae2a4d864cb662a567f7\nMy English is not good, so I did not find any commit msg issues",
+      "parentUuid": "73bc2e5b_2f088001",
+      "range": {
+        "startLine": 7,
+        "startChar": 10,
+        "endLine": 7,
+        "endChar": 20
+      },
+      "revId": "2e9d1824fd3251d81b81d823ac5a6889ac8d9b73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e33ff502_5d6b4d45",
