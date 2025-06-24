@@ -16,6 +16,24 @@
       "message": "https://review.lineageos.org/c/LineageOS/hudson/+/429628\nhttps://review.lineageos.org/c/LineageOS/lineage_wiki/+/429629\nSocrates is currently without maintenance",
       "revId": "cfecb3fb83585de74783dfbca16adefac0d6cc84",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "159f4c42_940dfb43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35315
+      },
+      "writtenOn": "2025-06-24T06:52:06Z",
+      "side": 1,
+      "message": "I have taken over socrates",
+      "parentUuid": "3a193546_22500431",
+      "revId": "cfecb3fb83585de74783dfbca16adefac0d6cc84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
