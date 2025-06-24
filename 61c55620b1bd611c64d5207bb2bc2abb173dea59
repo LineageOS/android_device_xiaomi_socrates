@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6951815c_cd9cfc9c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-06-24T06:20:45Z",
+      "side": 1,
+      "message": "Does it really make sense to stay here and not on common tree?",
+      "revId": "61c55620b1bd611c64d5207bb2bc2abb173dea59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
