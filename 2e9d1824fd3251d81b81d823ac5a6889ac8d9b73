@@ -69,6 +69,30 @@
       },
       "revId": "2e9d1824fd3251d81b81d823ac5a6889ac8d9b73",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf52a5b7_e7180431",
+        "filename": "device.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 35315
+      },
+      "writtenOn": "2025-06-24T08:10:05Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_xiaomi_socrates/+/435161",
+      "parentUuid": "2393aed6_1b9b2d7e",
+      "range": {
+        "startLine": 13,
+        "startChar": 7,
+        "endLine": 13,
+        "endChar": 30
+      },
+      "revId": "2e9d1824fd3251d81b81d823ac5a6889ac8d9b73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
