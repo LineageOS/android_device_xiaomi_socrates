@@ -34,6 +34,24 @@
       "parentUuid": "3a193546_22500431",
       "revId": "cfecb3fb83585de74783dfbca16adefac0d6cc84",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4180ea5d_579f54d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27403
+      },
+      "writtenOn": "2025-06-25T02:24:05Z",
+      "side": 1,
+      "message": "Cool, 有人接手就好",
+      "parentUuid": "159f4c42_940dfb43",
+      "revId": "cfecb3fb83585de74783dfbca16adefac0d6cc84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
