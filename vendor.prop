@@ -3,3 +3,4 @@ persist.vendor.fingerprint.sensor_location=720|2885|130
 
 # Sensors
 ro.vendor.sensors.xiaomi.single_tap=true
+ro.vendor.sensors.xiaomi.double_tap=true
