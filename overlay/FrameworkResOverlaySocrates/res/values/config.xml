@@ -30,6 +30,9 @@
     <!-- Type of the double tap sensor. Empty if double tap is not supported. -->
     <string name="config_dozeDoubleTapSensorType" translatable="false">org.lineageos.sensor.double_tap</string>
 
+    <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
+    <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
+
     <!-- Array of output values for LCD backlight corresponding to the lux values
         in the config_autoBrightnessLevels array.  This array should have size one greater
         than the size of the config_autoBrightnessLevels array.
