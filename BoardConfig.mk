@@ -19,6 +19,9 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
     goodix_core.ko \
     goodix_fod.ko
 
+BOOT_KERNEL_MODULES += \
+    goodix_core.ko
+
 # Power
 TARGET_TAP_TO_WAKE_NODE := /sys/devices/platform/goodix_ts.0/double_tap_enable
 
