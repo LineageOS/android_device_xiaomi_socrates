@@ -19,6 +19,9 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD += \
     goodix_core.ko \
     goodix_fod.ko
 
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += \
+    goodix_core.ko
+
 BOOT_KERNEL_MODULES += \
     goodix_core.ko
 
