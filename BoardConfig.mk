@@ -25,9 +25,6 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += \
 BOOT_KERNEL_MODULES += \
     goodix_core.ko
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := /sys/devices/platform/goodix_ts.0/double_tap_enable
-
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
