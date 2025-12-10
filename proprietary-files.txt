@@ -1,4 +1,4 @@
-# Unpinned blobs from socrates (OS2.0.211.0.VMKCNXM)
+# Unpinned blobs from socrates (OS2.0.212.0.VMKCNXM)
 
 # ACDB
 odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:vendor/etc/acdbdata/kalama_mtp/Tutu_acdb_cal.acdb
