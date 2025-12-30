@@ -3,9 +3,6 @@ bluetooth.device.default_name=Redmi K60 Pro
 
 # Display
 vendor.display.disable_3d_adaptive_tm=1
-ro.vendor.display.switch_resolution.support=1
-ro.vendor.display.mode_change_optimize.enable=true
-ro.vendor.mi_sf.ultimate.perf.support=true
 persist.sys.miui_resolution=1440x3200
 
 # USB
