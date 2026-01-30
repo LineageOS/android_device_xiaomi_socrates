@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebabd738_1d989f43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35315
+      },
+      "writtenOn": "2026-01-30T14:27:21Z",
+      "side": 1,
+      "message": "Waiting for sm8550-common to be ready",
+      "revId": "0e8214c0e7817cfd04cd8b4234266e4e410426b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
