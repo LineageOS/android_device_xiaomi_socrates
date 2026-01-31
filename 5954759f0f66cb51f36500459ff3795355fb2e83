@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cb0ca58_bc256352",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-31T11:16:38Z",
+      "side": 1,
+      "message": "Same comment as in: https://review.lineageos.org/c/LineageOS/android_device_xiaomi_nuwa/+/472201",
+      "revId": "5954759f0f66cb51f36500459ff3795355fb2e83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
