@@ -626,6 +626,7 @@ odm/etc/disp0/mdss_dsi_m11_42_02_0a_dsc_cmd/mi_gc_3.txt
 odm/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json
 odm/etc/df_default.xml
 odm/etc/mdss_dsi_m11_42_02_0a_dsc_cmd_mi.xml
+product/etc/displayconfig/display_id_4630946545580055171.xml:vendor/etc/displayconfig/display_id_4630946545580055171.xml
 vendor/etc/display/3dlut-pt-onnx-ptq-htp-fp16.dlc
 vendor/etc/displayconfig/display_layout_configuration.xml
 vendor/etc/df_default.xml
