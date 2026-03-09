@@ -16,6 +16,24 @@
       "message": "Is this really a unique feature of this device? Isn\u0027t it applicable to the entire sm8550 family?",
       "revId": "eeb23f807b9a052a62285c6384042f12b534a10b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "658bf6c1_a0199223",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36776
+      },
+      "writtenOn": "2026-03-09T10:31:35Z",
+      "side": 1,
+      "message": "This was only tested on socrates.\n\nI\u0027m not sure whether all SM8550 devices support Wi-Fi 6 SoftAP, so\nI kept it device-specific for now. If it\u0027s confirmed to work on all\nSM8550 devices, I\u0027m happy to move it to sm8550-common.",
+      "parentUuid": "3ce40774_d3c80c38",
+      "revId": "eeb23f807b9a052a62285c6384042f12b534a10b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
