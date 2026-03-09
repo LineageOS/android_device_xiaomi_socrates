@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FrameworkResOverlaySocrates \
     SettingsOverlaySocrates \
-    SystemUIOverlaySocrates
+    SystemUIOverlaySocrates \
+    WifiResourcesOverlaySocrates
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
