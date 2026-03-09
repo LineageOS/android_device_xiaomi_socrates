@@ -34,6 +34,23 @@
       "parentUuid": "3ce40774_d3c80c38",
       "revId": "eeb23f807b9a052a62285c6384042f12b534a10b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2293d80b_b9361826",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35315
+      },
+      "writtenOn": "2026-03-09T10:36:26Z",
+      "side": 1,
+      "message": "u should push it to sm8550-common",
+      "revId": "eeb23f807b9a052a62285c6384042f12b534a10b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
