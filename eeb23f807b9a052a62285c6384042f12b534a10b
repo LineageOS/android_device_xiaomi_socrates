@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ce40774_d3c80c38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-03-09T10:19:26Z",
+      "side": 1,
+      "message": "Is this really a unique feature of this device? Isn\u0027t it applicable to the entire sm8550 family?",
+      "revId": "eeb23f807b9a052a62285c6384042f12b534a10b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
