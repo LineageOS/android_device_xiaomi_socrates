@@ -5,6 +5,7 @@
 #
 
 # Inherit from sm8550-common
+TARGET_HAS_UDFPS := true
 $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 
 # Get non-open-source specific aspects
