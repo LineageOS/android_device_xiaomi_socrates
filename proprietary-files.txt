@@ -1,4 +1,4 @@
-# Unpinned blobs from socrates (OS3.0.5.0.VMKCNXM)
+# Unpinned blobs from socrates (OS3.0.303.0.WMKCNXM)
 
 # ACDB
 odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:vendor/etc/acdbdata/kalama_mtp/Tutu_acdb_cal.acdb
@@ -132,7 +132,8 @@ odm/etc/camera/beauty_config_cn.json
 odm/etc/camera/beauty_config_gl.json
 odm/etc/camera/beauty_style_nude.cng
 odm/etc/camera/bokehParams.json
-odm/etc/camera/camerabooster.json
+odm/etc/camera/cameradfx_config.json
+odm/etc/camera/cameraopt_reclaim.json
 odm/etc/camera/camxoverridesettings.txt
 odm/etc/camera/com.xiaomi.dcal.wu.data
 odm/etc/camera/com.xiaomi.dcal.wu.golden
@@ -223,13 +224,14 @@ odm/lib64/com.qualcomm.mcx.nonlinearmapper.so
 odm/lib64/com.qualcomm.mcx.policy.mfl.so
 odm/lib64/com.qualcomm.mcx.policy.xr.so
 odm/lib64/com.qualcomm.qti.mcx.usecase.extension.so
+odm/lib64/com.xiaomi.camdfx.so
 odm/lib64/com.xiaomi.camhal.overlap.so
 odm/lib64/com.xiaomi.camhal.submodel.camxfrag.so
 odm/lib64/com.xiaomi.camhal.submodel.chifrag.so
 odm/lib64/libAF.so
 odm/lib64/libHISCppAlgos.so
 odm/lib64/libMiMotion.so
-odm/lib64/libMiVideoFilter.so
+odm/lib64/libMiPhotoFilter.so
 odm/lib64/libTrueSight.so
 odm/lib64/libXMFaceFocus.so
 odm/lib64/libaachaptics.so
@@ -292,6 +294,7 @@ odm/lib64/libcom.xiaomi.mawutils.so
 odm/lib64/libcom.xiaomi.mawutilsold.so
 odm/lib64/libcom.xiaomi.metadatautils.so
 odm/lib64/libcom.xiaomi.pluginutils.so
+odm/lib64/libcom.xiaomi.providercallback.so
 odm/lib64/libcommonchiutils.so
 odm/lib64/libdeflicker.so
 odm/lib64/libdualcam_optical_zoom_control.so
