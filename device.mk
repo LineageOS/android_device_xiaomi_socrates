@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FrameworkResOverlaySocrates \
     SettingsOverlaySocrates \
+    SettingsProviderOverlaySocrates \
     SystemUIOverlaySocrates
 
 # Soong namespaces
