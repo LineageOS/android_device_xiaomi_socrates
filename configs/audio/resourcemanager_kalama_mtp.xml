@@ -111,7 +111,6 @@
         <codec codec_format="CODEC_TYPE_APTX_AD_SPEECH" codec_type="enc|dec" codec_library="lib_bt_aptx.so" />
         <codec codec_format="CODEC_TYPE_LC3" codec_type="enc|dec" codec_library="lib_bt_ble.so" />
         <codec codec_format="CODEC_TYPE_APTX_AD_QLEA" codec_type="enc" codec_library="lib_bt_ble.so" />
-        <codec codec_format="CODEC_TYPE_LHDC" codec_type="enc" codec_library="lib_bt_lhdc.so" />
     </bt_codecs>
     <gain_db_to_level_mapping>
         <gain_level_map db="-59" level="5"/>
