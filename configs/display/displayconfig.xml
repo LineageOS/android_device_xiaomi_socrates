@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <!-- MIUI ADD: Adapt_MIUIAdaptFrame-->
 <displayConfiguration>
+    <densityMapping>
+        <density>
+            <height>2400</height>
+            <width>1080</width>
+            <density>405</density>
+        </density>
+        <density>
+            <height>3200</height>
+            <width>1440</width>
+            <density>540</density>
+        </density>
+    </densityMapping>
     <!-- Global Brightness-Nit mapping -->
     <screenBrightnessMap>
         <point>
