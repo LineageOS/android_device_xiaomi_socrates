@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<Targets>
+    <Target name="kalama">
+        <PanelResolution width="1440" height="3200">
+            <ScalingResolution w="1080" h="2400"/>
+        </PanelResolution>
+    </Target>
+</Targets>
