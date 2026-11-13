@@ -120,6 +120,55 @@
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
 
+    <!-- The display uses different gamma curves for different refresh rates. It's hard for panel
+          vendor to tune the curves to have exact same brightness for different refresh rate. So
+          flicker could be observed at switch time. The issue is worse at the gamma lower end.
+          In addition, human eyes are more sensitive to the flicker at darker environment.
+          To prevent flicker, we only support higher refresh rates if the display brightness is above
+          a threshold. And the darker environment could have higher threshold.
+          For example, no higher refresh rate if
+              display brightness <= disp0 && ambient brightness <= amb0
+              || display brightness <= disp1 && ambient brightness <= amb1 -->
+    <integer-array name="config_brightnessThresholdsOfPeakRefreshRate">
+        <item>10</item>
+    </integer-array>
+
+    <!-- Low zone lux thresholds -->
+    <integer-array name="config_ambientThresholdsOfPeakRefreshRate">
+        <item>-1</item>
+    </integer-array>
+
+    <!-- Default refresh rate in the zone defined by brightness and ambient thresholds.
+         If non-positive, then the refresh rate is unchanged even if thresholds are configured. -->
+    <integer name="config_defaultRefreshRateInZone">120</integer>
+
+    <!-- The display uses different gamma curves for different refresh rates. It's hard for panel
+         vendors to tune the curves to have exact same brightness for different refresh rate. So
+         flicker could be observed at switch time. The issue can be observed on the screen with
+         even full white content at the high brightness. To prevent flickering, we support fixed
+         refresh rates if the display and ambient brightness are equal to or above the provided
+         thresholds. You can define multiple threshold levels as higher brightness environments
+         may have lower display brightness requirements for the flickering is visible.
+         For example, fixed refresh rate if
+             display brightness >= disp0 && ambient brightness >= amb0
+             || display brightness >= disp1 && ambient brightness >= amb1
+         Brightness thresholds are paired with lux thresholds - they both have to be met.
+         A negative brightness or lux value means that only one threshold should be used - e.g. if
+         the brightness value is negative, only the lux threshold is applied. -->
+    <!-- High zone brightness thresholds in the range [0, 255] -->
+    <integer-array name="config_highDisplayBrightnessThresholdsOfFixedRefreshRate">
+        <item>127</item>
+    </integer-array>
+
+    <!-- High zone lux thresholds -->
+    <integer-array name="config_highAmbientBrightnessThresholdsOfFixedRefreshRate">
+        <item>6001</item>
+    </integer-array>
+
+    <!-- Default refresh rate in the high zone defined by brightness and ambient thresholds.
+         If non-positive, then the refresh rate is unchanged even if thresholds are configured. -->
+    <integer name="config_fixedRefreshRateInHighZone">120</integer>
+
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
